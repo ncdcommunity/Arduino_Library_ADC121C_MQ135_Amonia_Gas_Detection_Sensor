@@ -84,6 +84,6 @@ The ADC121C_MQ135 has a number of settings, which can be configured based on use
  
     mq135.setPolarity(POLARITY_LOW);        // Sets the ALERT pin to active low
     
-6.Voltage measurement:The following command is used to measure the concentration of amonia gas.
+6.Amonia gas measurement:The following command is used to measure the concentration of amonia gas.
 
       mq135.Measure_Ammonia(-0.41, 1.0);      
